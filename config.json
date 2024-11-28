@@ -1,0 +1,37 @@
+{
+  "port":4000,
+  "db":{
+    "live":{
+      "host": "154.49.142.154",
+      "user": "u332193115_u332193115_mit",
+      "password": "@786Pak786",
+      "database": "u332193115_sportsarea"
+    },
+    "dev":{
+      "host": "154.49.142.154",
+      "user": "u332193115_u332193115_mit",
+      "password": "@786Pak786",
+      "database": "u332193115_sportsarea"
+    }
+  },
+  "encryptionKey":"bbC4H19lsVbQDfakxc456rtNMQdd0FloL",
+  "storageUrl":"https://[bucket_name######].s3.amazonaws.com",
+  "pushNotification":{ 
+      "databaseURL": "https://sports-areas-default-rtdb.firebaseio.com"
+  },
+  "voipNotification":{
+    "key": "cert/AuthKey_#######.p8", 
+    "keyId": "#######",
+    "teamId": "###########",
+    "bundleId":"com.#####.app",
+    "production":true
+  },
+  "sslCertificatePath":{
+    "isSsl":false,
+    "key": "######Path ssl######/##privkey.pem",
+    "cert": "######path ssl#####/##fullchain.pem"
+    
+  }
+
+  
+}
